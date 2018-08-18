@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34C4DF52127DEF100938200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4DF42127DEF100938200 /* AppDelegate.swift */; };
+		F34C4DF72127DEF100938200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4DF62127DEF100938200 /* ViewController.swift */; };
+		F34C4DFA2127DEF100938200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34C4DF82127DEF100938200 /* Main.storyboard */; };
+		F34C4DFC2127DEF300938200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34C4DFB2127DEF300938200 /* Assets.xcassets */; };
+		F34C4DFF2127DEF300938200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34C4DFD2127DEF300938200 /* LaunchScreen.storyboard */; };
+		F34C4E0A2127DEF300938200 /* Que_HayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4E092127DEF300938200 /* Que_HayTests.swift */; };
+		F34C4E152127DEF300938200 /* Que_HayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4E142127DEF300938200 /* Que_HayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F34C4E062127DEF300938200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34C4DE92127DEF100938200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34C4DF02127DEF100938200;
+			remoteInfo = "Que Hay";
+		};
+		F34C4E112127DEF300938200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34C4DE92127DEF100938200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34C4DF02127DEF100938200;
+			remoteInfo = "Que Hay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F34C4DF12127DEF100938200 /* Que Hay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Que Hay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34C4DF42127DEF100938200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F34C4DF62127DEF100938200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F34C4DF92127DEF100938200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F34C4DFB2127DEF300938200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F34C4DFE2127DEF300938200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F34C4E002127DEF300938200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34C4E052127DEF300938200 /* Que HayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Que HayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34C4E092127DEF300938200 /* Que_HayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Que_HayTests.swift; sourceTree = "<group>"; };
+		F34C4E0B2127DEF300938200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34C4E102127DEF300938200 /* Que HayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Que HayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34C4E142127DEF300938200 /* Que_HayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Que_HayUITests.swift; sourceTree = "<group>"; };
+		F34C4E162127DEF300938200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34C4DEE2127DEF100938200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34C4E022127DEF300938200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34C4E0D2127DEF300938200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F34C4DE82127DEF100938200 = {
+			isa = PBXGroup;
+			children = (
+				F34C4DF32127DEF100938200 /* Que Hay */,
+				F34C4E082127DEF300938200 /* Que HayTests */,
+				F34C4E132127DEF300938200 /* Que HayUITests */,
+				F34C4DF22127DEF100938200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F34C4DF22127DEF100938200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F34C4DF12127DEF100938200 /* Que Hay.app */,
+				F34C4E052127DEF300938200 /* Que HayTests.xctest */,
+				F34C4E102127DEF300938200 /* Que HayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F34C4DF32127DEF100938200 /* Que Hay */ = {
+			isa = PBXGroup;
+			children = (
+				F34C4DF42127DEF100938200 /* AppDelegate.swift */,
+				F34C4DF62127DEF100938200 /* ViewController.swift */,
+				F34C4DF82127DEF100938200 /* Main.storyboard */,
+				F34C4DFB2127DEF300938200 /* Assets.xcassets */,
+				F34C4DFD2127DEF300938200 /* LaunchScreen.storyboard */,
+				F34C4E002127DEF300938200 /* Info.plist */,
+			);
+			path = "Que Hay";
+			sourceTree = "<group>";
+		};
+		F34C4E082127DEF300938200 /* Que HayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34C4E092127DEF300938200 /* Que_HayTests.swift */,
+				F34C4E0B2127DEF300938200 /* Info.plist */,
+			);
+			path = "Que HayTests";
+			sourceTree = "<group>";
+		};
+		F34C4E132127DEF300938200 /* Que HayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F34C4E142127DEF300938200 /* Que_HayUITests.swift */,
+				F34C4E162127DEF300938200 /* Info.plist */,
+			);
+			path = "Que HayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F34C4DF02127DEF100938200 /* Que Hay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34C4E192127DEF300938200 /* Build configuration list for PBXNativeTarget "Que Hay" */;
+			buildPhases = (
+				F34C4DED2127DEF100938200 /* Sources */,
+				F34C4DEE2127DEF100938200 /* Frameworks */,
+				F34C4DEF2127DEF100938200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Que Hay";
+			productName = "Que Hay";
+			productReference = F34C4DF12127DEF100938200 /* Que Hay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F34C4E042127DEF300938200 /* Que HayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34C4E1C2127DEF300938200 /* Build configuration list for PBXNativeTarget "Que HayTests" */;
+			buildPhases = (
+				F34C4E012127DEF300938200 /* Sources */,
+				F34C4E022127DEF300938200 /* Frameworks */,
+				F34C4E032127DEF300938200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34C4E072127DEF300938200 /* PBXTargetDependency */,
+			);
+			name = "Que HayTests";
+			productName = "Que HayTests";
+			productReference = F34C4E052127DEF300938200 /* Que HayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F34C4E0F2127DEF300938200 /* Que HayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34C4E1F2127DEF300938200 /* Build configuration list for PBXNativeTarget "Que HayUITests" */;
+			buildPhases = (
+				F34C4E0C2127DEF300938200 /* Sources */,
+				F34C4E0D2127DEF300938200 /* Frameworks */,
+				F34C4E0E2127DEF300938200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34C4E122127DEF300938200 /* PBXTargetDependency */,
+			);
+			name = "Que HayUITests";
+			productName = "Que HayUITests";
+			productReference = F34C4E102127DEF300938200 /* Que HayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F34C4DE92127DEF100938200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Henry Fernandez";
+				TargetAttributes = {
+					F34C4DF02127DEF100938200 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F34C4E042127DEF300938200 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F34C4DF02127DEF100938200;
+					};
+					F34C4E0F2127DEF300938200 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F34C4DF02127DEF100938200;
+					};
+				};
+			};
+			buildConfigurationList = F34C4DEC2127DEF100938200 /* Build configuration list for PBXProject "Que Hay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F34C4DE82127DEF100938200;
+			productRefGroup = F34C4DF22127DEF100938200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F34C4DF02127DEF100938200 /* Que Hay */,
+				F34C4E042127DEF300938200 /* Que HayTests */,
+				F34C4E0F2127DEF300938200 /* Que HayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F34C4DEF2127DEF100938200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34C4DFF2127DEF300938200 /* LaunchScreen.storyboard in Resources */,
+				F34C4DFC2127DEF300938200 /* Assets.xcassets in Resources */,
+				F34C4DFA2127DEF100938200 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34C4E032127DEF300938200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34C4E0E2127DEF300938200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34C4DED2127DEF100938200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34C4DF72127DEF100938200 /* ViewController.swift in Sources */,
+				F34C4DF52127DEF100938200 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34C4E012127DEF300938200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34C4E0A2127DEF300938200 /* Que_HayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34C4E0C2127DEF300938200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34C4E152127DEF300938200 /* Que_HayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F34C4E072127DEF300938200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34C4DF02127DEF100938200 /* Que Hay */;
+			targetProxy = F34C4E062127DEF300938200 /* PBXContainerItemProxy */;
+		};
+		F34C4E122127DEF300938200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34C4DF02127DEF100938200 /* Que Hay */;
+			targetProxy = F34C4E112127DEF300938200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F34C4DF82127DEF100938200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34C4DF92127DEF100938200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F34C4DFD2127DEF300938200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34C4DFE2127DEF300938200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F34C4E172127DEF300938200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F34C4E182127DEF300938200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F34C4E1A2127DEF300938200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Que Hay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "universidad.libre.Que-Hay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F34C4E1B2127DEF300938200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Que Hay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "universidad.libre.Que-Hay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F34C4E1D2127DEF300938200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Que HayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "universidad.libre.Que-HayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Que Hay.app/Que Hay";
+			};
+			name = Debug;
+		};
+		F34C4E1E2127DEF300938200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Que HayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "universidad.libre.Que-HayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Que Hay.app/Que Hay";
+			};
+			name = Release;
+		};
+		F34C4E202127DEF300938200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Que HayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "universidad.libre.Que-HayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Que Hay";
+			};
+			name = Debug;
+		};
+		F34C4E212127DEF300938200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Que HayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "universidad.libre.Que-HayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Que Hay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34C4DEC2127DEF100938200 /* Build configuration list for PBXProject "Que Hay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34C4E172127DEF300938200 /* Debug */,
+				F34C4E182127DEF300938200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34C4E192127DEF300938200 /* Build configuration list for PBXNativeTarget "Que Hay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34C4E1A2127DEF300938200 /* Debug */,
+				F34C4E1B2127DEF300938200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34C4E1C2127DEF300938200 /* Build configuration list for PBXNativeTarget "Que HayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34C4E1D2127DEF300938200 /* Debug */,
+				F34C4E1E2127DEF300938200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34C4E1F2127DEF300938200 /* Build configuration list for PBXNativeTarget "Que HayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34C4E202127DEF300938200 /* Debug */,
+				F34C4E212127DEF300938200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F34C4DE92127DEF100938200 /* Project object */;
+}
