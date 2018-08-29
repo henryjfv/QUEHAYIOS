@@ -30,17 +30,19 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         if let urlStr = URL(string: mList[indexPath.row].urlImage){
             do{
                 let data = try Data(contentsOf: urlStr)
-                if(data != nil){
-               cell.imageView?.image = UIImage(data: data)
-                    cell.imageView?.layer.masksToBounds = true
-
+                if(data != nil ){
+                cell.myImage?.image = UIImage(data: data)
+                cell.myImage?.layer.masksToBounds = true
                 }
-            
             }catch let err {
                 print(err.localizedDescription)
             }
         }
         return cell;
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 125.0
     }
     
     override func viewDidLoad() {
