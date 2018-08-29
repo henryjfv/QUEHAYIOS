@@ -1,0 +1,6 @@
+framework module Pods_Que_Hay {
+  umbrella header "Pods-Que Hay-umbrella.h"
+
+  export *
+  module * { export * }
+}

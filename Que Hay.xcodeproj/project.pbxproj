@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EBFD2256C15E5A49CCB8112 /* Pods_Que_Hay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0820F2B324CE8434A7D29139 /* Pods_Que_Hay.framework */; };
+		A2F197E2B25D7820090FF5C0 /* Pods_Que_HayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5F0C298308B33E872D3997 /* Pods_Que_HayUITests.framework */; };
+		B6DD94D07F6C7FB8B3F8D5E3 /* Pods_Que_HayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DBE315325820F2E12A1787 /* Pods_Que_HayTests.framework */; };
+		F316CD69212A718500B4B6A5 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CD68212A718500B4B6A5 /* ViewControllerTableViewCell.swift */; };
+		F316CD6B212A74AD00B4B6A5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316CD6A212A74AD00B4B6A5 /* Event.swift */; };
 		F34C4DF52127DEF100938200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4DF42127DEF100938200 /* AppDelegate.swift */; };
 		F34C4DF72127DEF100938200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4DF62127DEF100938200 /* ViewController.swift */; };
 		F34C4DFA2127DEF100938200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34C4DF82127DEF100938200 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		F34C4DFF2127DEF300938200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34C4DFD2127DEF300938200 /* LaunchScreen.storyboard */; };
 		F34C4E0A2127DEF300938200 /* Que_HayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4E092127DEF300938200 /* Que_HayTests.swift */; };
 		F34C4E152127DEF300938200 /* Que_HayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4E142127DEF300938200 /* Que_HayUITests.swift */; };
+		F34C4E232127E0E100938200 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F34C4E222127E0E100938200 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028FBD29BBEBEC670509A30C /* Pods-Que HayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Que HayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Que HayUITests/Pods-Que HayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0820F2B324CE8434A7D29139 /* Pods_Que_Hay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Que_Hay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2630592C7B15E1262F98B2D4 /* Pods-Que Hay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Que Hay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Que Hay/Pods-Que Hay.debug.xcconfig"; sourceTree = "<group>"; };
+		3016801D118260FDD5B66F59 /* Pods-Que HayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Que HayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Que HayTests/Pods-Que HayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42FC3C9EEDFC660CB9A392A6 /* Pods-Que HayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Que HayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Que HayUITests/Pods-Que HayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A354AA664BE3D573EE961B /* Pods-Que HayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Que HayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Que HayTests/Pods-Que HayTests.release.xcconfig"; sourceTree = "<group>"; };
+		E50A68F82BC461FD369EBAF7 /* Pods-Que Hay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Que Hay.release.xcconfig"; path = "Pods/Target Support Files/Pods-Que Hay/Pods-Que Hay.release.xcconfig"; sourceTree = "<group>"; };
+		EA5F0C298308B33E872D3997 /* Pods_Que_HayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Que_HayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F316CD68212A718500B4B6A5 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		F316CD6A212A74AD00B4B6A5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		F34C4DF12127DEF100938200 /* Que Hay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Que Hay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34C4DF42127DEF100938200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F34C4DF62127DEF100938200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		F34C4E102127DEF300938200 /* Que HayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Que HayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34C4E142127DEF300938200 /* Que_HayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Que_HayUITests.swift; sourceTree = "<group>"; };
 		F34C4E162127DEF300938200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34C4E222127E0E100938200 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../DESCARGAS/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6DBE315325820F2E12A1787 /* Pods_Que_HayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Que_HayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBFD2256C15E5A49CCB8112 /* Pods_Que_Hay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DD94D07F6C7FB8B3F8D5E3 /* Pods_Que_HayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F197E2B25D7820090FF5C0 /* Pods_Que_HayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20DE16BF1B837D7E41465313 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2630592C7B15E1262F98B2D4 /* Pods-Que Hay.debug.xcconfig */,
+				E50A68F82BC461FD369EBAF7 /* Pods-Que Hay.release.xcconfig */,
+				3016801D118260FDD5B66F59 /* Pods-Que HayTests.debug.xcconfig */,
+				B5A354AA664BE3D573EE961B /* Pods-Que HayTests.release.xcconfig */,
+				42FC3C9EEDFC660CB9A392A6 /* Pods-Que HayUITests.debug.xcconfig */,
+				028FBD29BBEBEC670509A30C /* Pods-Que HayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		576EE5172FDA6FEF28E317E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0820F2B324CE8434A7D29139 /* Pods_Que_Hay.framework */,
+				F6DBE315325820F2E12A1787 /* Pods_Que_HayTests.framework */,
+				EA5F0C298308B33E872D3997 /* Pods_Que_HayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F34C4DE82127DEF100938200 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				F34C4E082127DEF300938200 /* Que HayTests */,
 				F34C4E132127DEF300938200 /* Que HayUITests */,
 				F34C4DF22127DEF100938200 /* Products */,
+				20DE16BF1B837D7E41465313 /* Pods */,
+				576EE5172FDA6FEF28E317E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +146,12 @@
 				F34C4DF42127DEF100938200 /* AppDelegate.swift */,
 				F34C4DF62127DEF100938200 /* ViewController.swift */,
 				F34C4DF82127DEF100938200 /* Main.storyboard */,
+				F316CD68212A718500B4B6A5 /* ViewControllerTableViewCell.swift */,
 				F34C4DFB2127DEF300938200 /* Assets.xcassets */,
 				F34C4DFD2127DEF300938200 /* LaunchScreen.storyboard */,
 				F34C4E002127DEF300938200 /* Info.plist */,
+				F34C4E222127E0E100938200 /* GoogleService-Info.plist */,
+				F316CD6A212A74AD00B4B6A5 /* Event.swift */,
 			);
 			path = "Que Hay";
 			sourceTree = "<group>";
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F34C4E192127DEF300938200 /* Build configuration list for PBXNativeTarget "Que Hay" */;
 			buildPhases = (
+				C1FDFF898A3589190BF01F3C /* [CP] Check Pods Manifest.lock */,
 				F34C4DED2127DEF100938200 /* Sources */,
 				F34C4DEE2127DEF100938200 /* Frameworks */,
 				F34C4DEF2127DEF100938200 /* Resources */,
+				4D58EC9B6CDDF4B0993FB8DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F34C4E1C2127DEF300938200 /* Build configuration list for PBXNativeTarget "Que HayTests" */;
 			buildPhases = (
+				2EE52BA050DD12F115E8F6C4 /* [CP] Check Pods Manifest.lock */,
 				F34C4E012127DEF300938200 /* Sources */,
 				F34C4E022127DEF300938200 /* Frameworks */,
 				F34C4E032127DEF300938200 /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F34C4E1F2127DEF300938200 /* Build configuration list for PBXNativeTarget "Que HayUITests" */;
 			buildPhases = (
+				1F43CFF0A1C374EB51090947 /* [CP] Check Pods Manifest.lock */,
 				F34C4E0C2127DEF300938200 /* Sources */,
 				F34C4E0D2127DEF300938200 /* Frameworks */,
 				F34C4E0E2127DEF300938200 /* Resources */,
@@ -230,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F34C4DFF2127DEF300938200 /* LaunchScreen.storyboard in Resources */,
+				F34C4E232127E0E100938200 /* GoogleService-Info.plist in Resources */,
 				F34C4DFC2127DEF300938200 /* Assets.xcassets in Resources */,
 				F34C4DFA2127DEF100938200 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +305,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F43CFF0A1C374EB51090947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Que HayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EE52BA050DD12F115E8F6C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Que HayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D58EC9B6CDDF4B0993FB8DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Que Hay/Pods-Que Hay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Que Hay/Pods-Que Hay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1FDFF898A3589190BF01F3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Que Hay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F34C4DED2127DEF100938200 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F316CD6B212A74AD00B4B6A5 /* Event.swift in Sources */,
 				F34C4DF72127DEF100938200 /* ViewController.swift in Sources */,
 				F34C4DF52127DEF100938200 /* AppDelegate.swift in Sources */,
+				F316CD69212A718500B4B6A5 /* ViewControllerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +563,11 @@
 		};
 		F34C4E1A2127DEF300938200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2630592C7B15E1262F98B2D4 /* Pods-Que Hay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6RDT5Q9GN;
 				INFOPLIST_FILE = "Que Hay/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +582,11 @@
 		};
 		F34C4E1B2127DEF300938200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50A68F82BC461FD369EBAF7 /* Pods-Que Hay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6RDT5Q9GN;
 				INFOPLIST_FILE = "Que Hay/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +601,7 @@
 		};
 		F34C4E1D2127DEF300938200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3016801D118260FDD5B66F59 /* Pods-Que HayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +622,7 @@
 		};
 		F34C4E1E2127DEF300938200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A354AA664BE3D573EE961B /* Pods-Que HayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +643,7 @@
 		};
 		F34C4E202127DEF300938200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FC3C9EEDFC660CB9A392A6 /* Pods-Que HayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +663,7 @@
 		};
 		F34C4E212127DEF300938200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028FBD29BBEBEC670509A30C /* Pods-Que HayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

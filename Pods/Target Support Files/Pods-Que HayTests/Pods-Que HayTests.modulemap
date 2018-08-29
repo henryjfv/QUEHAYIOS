@@ -1,0 +1,6 @@
+framework module Pods_Que_HayTests {
+  umbrella header "Pods-Que HayTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
